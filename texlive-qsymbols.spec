@@ -53,6 +53,7 @@ the stmaryrd package.
 %doc %{_texmfdistdir}/doc/latex/qsymbols/qsymbols.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/qsymbols/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ the stmaryrd package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
