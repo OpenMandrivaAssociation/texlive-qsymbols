@@ -5,7 +5,7 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-qsymbols
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Maths symbol abbreviations
 Group:		Publishing
