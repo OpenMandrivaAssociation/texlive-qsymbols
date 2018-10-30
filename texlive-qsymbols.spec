@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-qsymbols
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Maths symbol abbreviations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/qsymbols
